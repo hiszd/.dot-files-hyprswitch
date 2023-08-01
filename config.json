@@ -6,9 +6,9 @@
     ]
   },
   {
-    "mons": "&eDP-1",
+    "mons": "&eDP-1,&DP-2",
     "cmds": [
-      "keyword monitor DP-1,1920x1080@144,0x0,1"
+      "keyword monitor ${&mons1},1920x1080@144,0x0,1"
     ]
   }
 ]
