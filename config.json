@@ -1,6 +1,6 @@
 [
   {
-    "mons": "eDP-1,DP-1,HDMI-A-1",
+    "mons": "eDP-1,DP-3,HDMI-A-1",
     "cmds": [
       "hyprctl keyword monitor ${mons3},highrr,0x1080,1",
       "hyprctl keyword monitor ${mons2},highrr,1920x0,1",
@@ -16,14 +16,14 @@
       "hyprctl keyword workspace 8,monitor:${mons1}",
       "hyprctl keyword workspace 9,monitor:${mons3}",
       "hyprctl keyword workspace 0,monitor:${mons3}",
-      "~/build/eww/target/release/eww close-all",
-      "~/build/eww/target/release/eww open bar0",
-      "~/build/eww/target/release/eww open bar1",
-      "~/build/eww/target/release/eww open bar2"
+      "eww close-all",
+      "eww open bar0",
+      "eww open bar1",
+      "eww open bar2"
     ]
   },
   {
-    "mons": "eDP-1,DP-1",
+    "mons": "eDP-1,DP-3",
     "cmds": [
       "hyprctl keyword monitor ${mons1},highres,0x1080,1.5",
       "hyprctl keyword monitor ${mons2},highrr,0x0,1",
@@ -36,9 +36,9 @@
       "hyprctl keyword workspace 7,monitor:${mons1}",
       "hyprctl keyword workspace 8,monitor:${mons1}",
       "hyprctl keyword workspace 9,monitor:${mons1}",
-      "~/build/eww/target/release/eww close-all",
-      "~/build/eww/target/release/eww open bar0",
-      "~/build/eww/target/release/eww open bar1"
+      "eww close-all",
+      "eww open bar0",
+      "eww open bar1"
     ]
   },
   {
@@ -55,25 +55,17 @@
       "hyprctl keyword workspace 7,monitor:${mons1}",
       "hyprctl keyword workspace 8,monitor:${mons1}",
       "hyprctl keyword workspace 9,monitor:${mons1}",
-      "~/build/eww/target/release/eww close-all",
-      "~/build/eww/target/release/eww open bar0",
-      "~/build/eww/target/release/eww open bar1"
-    ]
-  },
-  {
-    "mons": "DP-1",
-    "cmds": [
-      "hyprctl keyword monitor ${mons1},1920x1080@75,0x0,1",
-      "~/build/eww/target/release/eww close all",
-      "~/build/eww/target/release/eww open bar0"
+      "eww close-all",
+      "eww open bar0",
+      "eww open bar1"
     ]
   },
   {
     "mons": "eDP-1",
     "cmds": [
-      "hyprctl keyword monitor ${mons1},1920x1080@144,0x0,1.5",
-      "~/build/eww/target/release/eww close-all",
-      "~/build/eww/target/release/eww open bar0"
+      "hyprctl keyword monitor ${mons1},highres,0x0,1.5",
+      "eww close-all",
+      "eww open bar0"
     ]
   }
 ]
