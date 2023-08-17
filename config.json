@@ -37,8 +37,7 @@
       "hyprctl keyword workspace 8,monitor:${mons1}",
       "hyprctl keyword workspace 9,monitor:${mons1}",
       "eww close-all",
-      "eww open bar0",
-      "eww open bar1"
+      "eww open-many bar0 bar1"
     ]
   },
   {
