@@ -25,6 +25,8 @@
   {
     "mons": "eDP-1,DP-3",
     "cmds": [
+      "eww close-all",
+      "eww daemon",
       "hyprctl keyword monitor ${mons1},highres,0x1080,1.5",
       "hyprctl keyword monitor ${mons2},highrr,0x0,1",
       "hyprctl keyword workspace 6,monitor:${mons1},default:true",
@@ -36,7 +38,6 @@
       "hyprctl keyword workspace 7,monitor:${mons1}",
       "hyprctl keyword workspace 8,monitor:${mons1}",
       "hyprctl keyword workspace 9,monitor:${mons1}",
-      "eww close-all",
       "eww open-many bar0 bar1"
     ]
   },
@@ -64,6 +65,7 @@
     "cmds": [
       "hyprctl keyword monitor ${mons1},highres,0x0,1.5",
       "eww close-all",
+      "eww daemon",
       "eww open bar0"
     ]
   }
