@@ -61,7 +61,7 @@
       ]
     },
     {
-      "mons": "eDP-1,DP-5",
+      "mons": "eDP-1,bob",
       "cmds": [
         "eww close-all",
         "hyprctl keyword monitor ${mons1},highres,0x0,1.6",
